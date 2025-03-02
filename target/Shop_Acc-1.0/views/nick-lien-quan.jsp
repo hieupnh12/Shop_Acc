@@ -16,11 +16,15 @@
         <link rel="stylesheet" href="../CSS/menu.css"><!-- comment -->
         <link rel="stylesheet" href="../CSS/banner.css">
         <link href="../CSS/details.css" rel="stylesheet" type="text/css"/>
-
+        <style>
+            .section {
+                padding-top: 80px;
+            }
+        </style>
     </head>
     <body>
         <jsp:include page="menu.jsp"></jsp:include>
-        
+
         <jsp:include page="acc-lien-quan.jsp"></jsp:include>
 
 
