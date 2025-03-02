@@ -1,0 +1,71 @@
+.image-gallery .thumb {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.image-gallery .thumb:hover {
+    transform: scale(1.1);
+    border: 3px solid red;
+}
+
+.main-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card {
+    font-size: 1.2rem;
+}
+
+.btn-lg {
+    font-size: 1.5rem;
+}
+
+.details {
+    padding-top: 80px;
+}
+
+.thumbs-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden; /* Quan trọng: Giấu phần ảnh bị tràn */
+}
+
+
+.thumbs {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    display: flex; /* Thêm dòng này để giúp ảnh sắp xếp đúng */
+}
+
+
+
+
+.thumbs .thumb {
+    width: 100px; 
+    height: 100px; /* Đảm bảo chiều cao nhất quán */
+    object-fit: cover;
+}
+.image-gallery button {
+    z-index: 10; /* Đảm bảo luôn hiển thị trên ảnh */
+}
+.main-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain; /* Giữ nguyên tỷ lệ ảnh */
+}
+
+.thumbs-wrapper {
+    display: flex;
+    gap: 10px;
+    transition: transform 0.4s ease-in-out;
+    width: max-content; /* Đảm bảo wrapper rộng đủ để chứa tất cả ảnh */
+    will-change: transform; /* Tối ưu hiệu suất */
+}
+
