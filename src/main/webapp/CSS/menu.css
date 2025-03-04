@@ -40,7 +40,6 @@
 
 .card {
     width: 16rem; 
-    padding: 10px;
 }
 
 .card-body {
@@ -81,7 +80,7 @@
     font-size: 0.85rem;
 }
 .section {
-/*    padding-top: 80px;*/
+    padding-top: 80px;
     max-width: 1100px;  
     margin: 0 auto;      
     padding-left: 10px;  

@@ -1,3 +1,13 @@
-com\mylogin\data\Database.class
-com\mylogin\shop_acc\resources\JakartaEE11Resource.class
+com\mylogin\dao\DAOinterface.class
+com\mylogin\dao\UserDAO.class
+com\mylogin\model\DanhMucChucNang.class
+com\mylogin\model\DetailQuyen.class
 com\mylogin\shop_acc\JakartaRestConfiguration.class
+com\mylogin\controller\LogoutControl.class
+com\mylogin\model\NhomQuyen.class
+com\mylogin\data\Database.class
+com\mylogin\controller\WaitingControl.class
+com\mylogin\model\Users.class
+com\mylogin\controller\LoginControl.class
+com\mylogin\controller\admin\HomeAdmin.class
+com\mylogin\shop_acc\resources\JakartaEE11Resource.class

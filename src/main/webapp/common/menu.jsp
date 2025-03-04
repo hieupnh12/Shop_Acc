@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@include file="/common/tablib.jsp" %>
 <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -16,7 +17,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="home.jsp">Home</a>
+                    <a class="nav-link active" aria-current="page" href="Shop_Acc/">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">contact us</a>
@@ -35,12 +36,12 @@
 
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="product_manager.jsp">Product Manger</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Admin</a>
-                </li>
+                <!--                <li class="nav-item">
+                                    <a class="nav-link" href="product_manager.jsp">Product Manger</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Admin</a>
+                                </li>-->
             </ul>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -49,10 +50,18 @@
             <a href="#" class="btn btn-light fw-bold" style="color: orange;" data-bs-toggle="modal" data-bs-target="#napTienModal">
                 Nạp Tiền
             </a>
-            <jsp:include page="payment.jsp"></jsp:include>
-            <a class="navbar-brand" href="login.jsp">
-                <img src="../IMAGE/profile.svg" alt="Logo" height="40">
-            </a>
+
+            <c:if test="${sessionScope.account == null}">
+                <a class="navbar-brand" href="login">
+                    <img src="IMAGE/profile.svg" alt="Logo" height="40">
+                </a>                            
+            </c:if>
+                <c:if test="${sessionScope.account != null}">
+<!--                    <ul class="dropdown-menu" aria-labelledby="accountDropdown">-->
+                        <li><a class="dropdown-item" href="#">${sessionScope.account.email}</a></li>
+                        <li><a class="dropdown-item" href="${pageContext.request.contextPath}/logout">Logout</a></li>
+                    <!--</ul>-->
+                </c:if>
             <a href="cart.html" class="btn btn-light ms-2">🛒 <span class="badge bg-danger">0</span></a>
         </div>
     </div>
