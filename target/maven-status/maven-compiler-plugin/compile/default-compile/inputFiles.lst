@@ -1,3 +1,13 @@
-D:\data\fullcourse\prj301\Shop_Acc\src\main\java\com\mylogin\data\Database.java
-D:\data\fullcourse\prj301\Shop_Acc\src\main\java\com\mylogin\shop_acc\JakartaRestConfiguration.java
-D:\data\fullcourse\prj301\Shop_Acc\src\main\java\com\mylogin\shop_acc\resources\JakartaEE11Resource.java
+C:\Users\hieup\Documents\NetBeansProjects\PRJ301\Shop_Acc\src\main\java\com\mylogin\controller\admin\HomeAdmin.java
+C:\Users\hieup\Documents\NetBeansProjects\PRJ301\Shop_Acc\src\main\java\com\mylogin\controller\LoginControl.java
+C:\Users\hieup\Documents\NetBeansProjects\PRJ301\Shop_Acc\src\main\java\com\mylogin\controller\LogoutControl.java
+C:\Users\hieup\Documents\NetBeansProjects\PRJ301\Shop_Acc\src\main\java\com\mylogin\controller\WaitingControl.java
+C:\Users\hieup\Documents\NetBeansProjects\PRJ301\Shop_Acc\src\main\java\com\mylogin\dao\DAOinterface.java
+C:\Users\hieup\Documents\NetBeansProjects\PRJ301\Shop_Acc\src\main\java\com\mylogin\dao\UserDAO.java
+C:\Users\hieup\Documents\NetBeansProjects\PRJ301\Shop_Acc\src\main\java\com\mylogin\data\Database.java
+C:\Users\hieup\Documents\NetBeansProjects\PRJ301\Shop_Acc\src\main\java\com\mylogin\model\DanhMucChucNang.java
+C:\Users\hieup\Documents\NetBeansProjects\PRJ301\Shop_Acc\src\main\java\com\mylogin\model\DetailQuyen.java
+C:\Users\hieup\Documents\NetBeansProjects\PRJ301\Shop_Acc\src\main\java\com\mylogin\model\NhomQuyen.java
+C:\Users\hieup\Documents\NetBeansProjects\PRJ301\Shop_Acc\src\main\java\com\mylogin\model\Users.java
+C:\Users\hieup\Documents\NetBeansProjects\PRJ301\Shop_Acc\src\main\java\com\mylogin\shop_acc\JakartaRestConfiguration.java
+C:\Users\hieup\Documents\NetBeansProjects\PRJ301\Shop_Acc\src\main\java\com\mylogin\shop_acc\resources\JakartaEE11Resource.java

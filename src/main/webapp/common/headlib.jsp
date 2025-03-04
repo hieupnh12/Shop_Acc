@@ -7,22 +7,11 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@include file="/common/tablib.jsp" %>
 <head>
-    <title>Shoppers</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="static/images/logo.png"/>
-
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700">
-    <link rel="stylesheet"  type="text/css" href="static/fonts/icomoon/style.css">
-
-    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="static/css/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" href="static/css/jquery-ui.css">
-    <link rel="stylesheet" type="text/css" href="static/css/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css" href="static/css/owl.theme.default.min.css">
-
-
-    <link rel="stylesheet" type="text/css" href="static/css/aos.css">
-
-    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop acc uy tin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="${pageContext.request.contextPath}/CSS/details.css" rel="stylesheet" type="text/css"/>-->
+<!--    <link href="${pageContext.request.contextPath}/CSS/banner.css" rel="stylesheet" type="text/css">-->
+    <!--<link href="${pageContext.request.contextPath}/CSS/menu.css" rel="stylesheet" type="text/css"/>-->
 </head>
