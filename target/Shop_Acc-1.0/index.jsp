@@ -5,13 +5,19 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@include file="common/tablib.jsp" %>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
+    <%@include file="common/headlib.jsp" %>
     <body>
-        <h1>Hello World!</h1>
+        <%@include file="common/menu.jsp" %>
+        
+        <%@include file="views/banner.jsp" %>
+        
+        <%@include file="views/body.jsp" %>
+        
+        <%@include file="common/footer.jsp" %>
+        
+        <%@include file="common/scripts.jsp" %>
     </body>
 </html>
