@@ -19,6 +19,34 @@ public class Users {
     public Users() {
     }
 
+    public Users(int userId, String email, String phone, double balance) {
+        this.userId = userId;
+        this.email = email;
+        this.phone = phone;
+        this.balance = balance;
+    }
+
+    
+    
+    public Users(String email, String password, String phone, int maNhomQuyen) {
+        this.email = email;
+        this.password = password;
+        this.phone = phone;
+        this.maNhomQuyen = maNhomQuyen;
+    }
+
+    public Users(int userId, String email, String password, String phone, double balance, boolean status, int maNhomQuyen) {
+        this.userId = userId;
+        this.email = email;
+        this.password = password;
+        this.phone = phone;
+        this.balance = balance;
+        this.status = status;
+        this.maNhomQuyen = maNhomQuyen;
+    }
+    
+    
+    
     public Users(int userId, String email, String password, String phone, double balance, boolean status, Date create_Date, Date update_date, int maNhomQuyen) {
         this.userId = userId;
         this.email = email;

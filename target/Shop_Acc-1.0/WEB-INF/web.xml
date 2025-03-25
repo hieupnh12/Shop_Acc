@@ -8,7 +8,7 @@
     
     
     <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>home</welcome-file>
     </welcome-file-list>
     
     <session-config>
@@ -16,4 +16,14 @@
             30
         </session-timeout>
     </session-config>
+    
+     <!-- Chatbot OpenAI -->
+    <servlet>
+        <servlet-name>ChatbotControl</servlet-name>
+        <servlet-class>com.mylogin.controller.ChatbotControl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChatbotControl</servlet-name>
+        <url-pattern>/chatbot</url-pattern>
+    </servlet-mapping>
 </web-app>

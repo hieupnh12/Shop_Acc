@@ -9,13 +9,13 @@ import java.util.ArrayList;
 public interface DAOinterface<T> {
     public int insert(T t);
     
-    public int update(T t);
+    public boolean update(T t);
     
     public int delete(String t);
     
     public ArrayList<T> selectAll();
     
-    public T selectById(String t);
+    public T selectById(int t);
     
     
     int getAutoIncrement();

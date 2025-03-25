@@ -66,7 +66,7 @@ public class WaitingControl extends HttpServlet {
             Map<Integer, String> roleRedirectMap = new HashMap<>();
             roleRedirectMap.put(1, "/admin/home");
             roleRedirectMap.put(3, "/manager/home");
-            roleRedirectMap.put(2, "/home");
+            roleRedirectMap.put(2, "/user/home");
             // Lấy đường dẫn dựa trên roleId, nếu không có thì mặc định "/home"
             String redirectPath = roleRedirectMap.getOrDefault(u.getMaNhomQuyen(), "/home");
             
